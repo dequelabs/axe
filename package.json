@@ -1,0 +1,25 @@
+{
+  "name": "@axe-core/axe",
+  "version": "1.0.0",
+  "description": "The family of axe tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dequelabs/axe.git"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "ada",
+    "508"
+  ],
+  "author": "Deque Systems Inc. (@dequelabs)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dequelabs/axe/issues"
+  },
+  "homepage": "https://github.com/dequelabs/axe#readme"
+}
