@@ -14,17 +14,30 @@ Perform **interactive testing** extensions to the Developer tools built into the
 
 ## CLI
 Use the command line interface to easily add accessibility checks into your **build/integration scripts**. 
-* Install the [npm package](https://www.npmjs.com/package/axe-cli) and begin to use it immediately
-* Or, clone the [GitHub repo](https://github.com/dequelabs/axe-cli) and modify it to your heart's content :-)
+* Install the [npm package](https://www.npmjs.com/package/@axe-core/cli) and begin to use it immediately
+* Or, clone the [GitHub repo](https://github.com/dequelabs/axe-core-npm) and modify it to your heart's content :-)
 
 
 ## APIs
 All built on the foundation of [axe-core](https://github.com/dequelabs/axe-core), these APIs make integration with your testing framework easier:
-* [axe-puppeteer](https://github.com/dequelabs/axe-puppeteer) chainable API, automatically tests every frame, for **Puppeteer** tests
-* [axe-webdriverjs](https://github.com/dequelabs/axe-webdriverjs) the same for **Selenium WebDriverJS**
-* [axe-selenium-java](https://github.com/dequelabs/axe-selenium-java) for our **Java** friends
-* [axe-matchers](https://github.com/dequelabs/axe-matchers) for our friends using **Cucumber** or **RSpec**
-* [react-axe](https://github.com/dequelabs/react-axe) for testing your **React** apps
+
+### JavaScript
+* [@axe-core/playwright](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/playwright) chainable axe API for **Playwright** and automatically injects into all frames.
+* [@axe-core/puppeteer](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/puppeteer) chainable API, automatically tests every frame, for **Puppeteer** tests
+* [@axe-core/webdriverjs](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs) chainable axe API for **Selenium's WebDriverJS** and automatically injects into all frames.
+* [@axe-core/webdriverio](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverio) chainable axe API for **WebdriverIO** and automatically injects into all frames.
+* [@axe-core/react](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react) for testing your **React** apps
+
+### Java
+* [axe-core-maven-html-selenium](https://github.com/dequelabs/axe-core-maven-html/tree/develop/selenium) for our **Java** friends using **Selenium**
+* [axe-core-maven-html-playwright](https://github.com/dequelabs/axe-core-maven-html/tree/develop/playwright) for our **Java** friends using **Playwright**
+
+### Ruby
+* [axe-core-cucumber](https://github.com/dequelabs/axe-core-gems/tree/develop/packages/axe-core-cucumber) for our friends using **Cucumber**
+* [axe-core-rspec](https://github.com/dequelabs/axe-core-gems/tree/develop/packages/axe-core-rspec) for our friends using **RSpec**
+* [axe-core-selenium](https://github.com/dequelabs/axe-core-gems/tree/develop/packages/axe-core-selenium) for our friends using **Selenium**
+* [axe-core-watir](https://github.com/dequelabs/axe-core-gems/tree/develop/packages/axe-core-watir) for our friends using **watir**
+* [axe-core-capybara](https://github.com/dequelabs/axe-core-gems/tree/develop/packages/axe-core-capybara) for our friends using **capybara**
 
 
 ## Acknowledgements
